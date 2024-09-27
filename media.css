@@ -1,0 +1,265 @@
+@media screen and (max-width:992px){
+    .container{
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+    
+
+    .story{
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+    }
+
+    .twos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-auto-rows: 1fr;
+        column-gap: 24px;
+        row-gap: 16px;
+        align-items: center;
+    }
+    .story_text h2{
+        font-size: 2rem;
+        color: #163A24;
+        font-weight: 700;
+    }
+    .story_text p {
+        color: #163A24;
+        font-family: "Noto Sans", Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+    } 
+
+    .partners{
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+    }
+
+    .partners h2{
+        font-size: 2rem;
+    }
+    .logos{
+        grid-template-columns: repeat(5,120px);
+        gap:20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .offerings{
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+    }
+
+    .costumes{
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+        text-align: center;
+    }
+
+    .costumes h2{
+        font-size: 2rem;
+    }
+
+    .scenes{
+        padding-top: 11rem;
+    }
+    .scenes h2{
+        font-size: 2rem;
+    }
+
+    .scenes img{
+        max-width: 100%;
+    }
+
+    .services{
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+        text-align: center;
+    }
+    .services h2{
+        font-size: 2rem;
+    }
+
+    .pricing{
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+        text-align: center;
+    }
+
+    .ebook{
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+    }
+
+    .ebook_text{
+        justify-content: space-evenly;
+    }
+
+    .ebook h2{
+        font-size: 2rem;
+    }
+
+    .ebook_grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .partners{
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+    }
+
+    .cta h2{
+        font-size: 2rem;
+    }
+    .newsletter h2{
+        font-size: 2rem;
+    }
+    footer{
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+    }
+
+    .footer_top,
+    .footer_bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer_p{
+        margin-bottom: 0;
+    }
+
+    .footer_p,
+    span{
+        margin-top: 0;
+    }
+   .footer_text{
+       text-align: start;
+       margin-right: 2rem;
+   }
+   .footer_text p{
+       font-size: 12px;
+   }
+
+   .footer_link a{
+       font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav_items{
+        margin: 0;
+    }
+
+    .navbar .btn-primary{
+        background-color: #198C36;
+        cursor: pointer;
+    }
+
+    .btn-primary{
+        cursor: pointer;
+        background-color: #198C36;
+    }
+
+    .hero{
+        padding-top: 120px;
+        padding-bottom: 40px;
+    }
+
+    .two-halves{
+        /* grid-template-columns: 1fr 1fr; */
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        grid-auto-rows: 1fr;
+        /* column-gap: 24px; */
+        column-gap: 50px;
+        row-gap: 16px;
+        align-items: center;
+    }
+
+    .story_text h2{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:576px){
+
+    .two-halves{
+        /* grid-template-columns: 1fr 1fr; */
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-rows: auto;
+        grid-auto-rows: 1fr;
+        /* column-gap: 24px; */
+        column-gap: 50px;
+        row-gap: 16px;
+        align-items: center;
+    }
+    .twos{
+        column-gap: 2rem;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4,150px);
+        column-gap: 20px;
+        text-align: center;   
+    }
+
+    .hr_icon{
+        padding-top: 45px;
+        padding-bottom: 20px;
+    }
+
+    .services_cards{
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+        gap: 10px;
+        justify-content: space-around;
+    }
+
+    .numbers{
+        display: grid;
+        grid-template-columns: 200px 50px 200px 50px 200px;
+        column-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .pricing_img{
+        display: block;
+        max-width: 75px;
+    }
+
+    .btn-primary{
+        background-color: #198C36;
+    }
+    .numbers > *{
+        margin-top: 0;
+    } 
+    .three{
+        margin-bottom: 0;
+    }
+
+    .newsletter_flex{
+        display: flex;
+        align-items: center;
+
+    }
+    .newsletter_text{
+        flex-basis: 100%;
+    }
+    .footer_link a{
+        font-size: 1rem;
+    }
+
+}
